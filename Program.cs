@@ -2,23 +2,11 @@
 
 var DeltaCount = new Exercise1();
 var Calculator = new Exercise2();
+var Array = new Exercise3();
 
-Calculator.Run();
+//Calculator.Run();
 //DeltaCount.Run();
-
-//namespace Main
-//{
-//    class Program
-//    {
-//        static void Main()
-//        {
-//            // Tworzymy instancje klas i wywołujemy ich metody
-//            var programA = new Excercise1();
-
-//        }
-//    }
-//}
-
+Array.Run();
 
 
 

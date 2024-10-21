@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Collections.Specialized;
 
 namespace Lab01
 {
     internal class Exercise1
     {
-        public static double DoubleInput()
+        public static double DoubleInput(string message = "Podaj liczbę")
         {
-            Console.WriteLine("Podaj liczbę");
+            Console.WriteLine(message);
             double input = Convert.ToDouble(Console.ReadLine());
             return input;
         }

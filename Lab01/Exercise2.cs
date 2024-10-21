@@ -13,7 +13,7 @@ internal class Exercise2
     ViewMenu:
         Console.WriteLine("Kalkulator");
         Console.WriteLine("1. Suma\n2. 2.Różnica\n3. 3. Iloczyn\n4. 4. Iloraz\n5. 5.Potęgowanie\n6. 6. Pierwiastek\n7. 7. FUnkcje trygonometryczne\n8. Wyjście ");
-        Console.WriteLine("Wybierz opcjee");
+        Console.WriteLine("Wybierz opcje");
         int choice = Convert.ToInt32(Console.ReadLine());
         switch (choice)
         {
