@@ -3,10 +3,12 @@
 var DeltaCount = new Exercise1();
 var Calculator = new Exercise2();
 var Array = new Exercise3();
+var ArrayMinMax = new Exercise4();
 
 //Calculator.Run();
 //DeltaCount.Run();
-Array.Run();
+//Array.Run();
+ArrayMinMax.Run();
 
 
 
