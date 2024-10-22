@@ -13,9 +13,8 @@ internal class Exercise6
         while (true)
         {
             Console.WriteLine("Podaj liczbę");
-            string input = Console.ReadLine();
-            int number = int.Parse(input);
-            if (number == 0)
+            double input = Convert.ToDouble(Console.ReadLine());
+            if (input == 0)
             {
                 break;
             }
