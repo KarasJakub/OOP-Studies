@@ -6,6 +6,7 @@ var Array = new Exercise3();
 var ArrayMinMax = new Exercise4();
 var CountingDown = new Exercise5();
 var InfiiiteLoop = new Exercise6();
+var Sorting = new Exercise7();
 
 //Calculator.Run();
 //DeltaCount.Run();
@@ -13,6 +14,37 @@ var InfiiiteLoop = new Exercise6();
 //ArrayMinMax.Run();
 //CountingDown.Run();
 InfiiiteLoop.Run();
+//Sorting.Run();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Random stuff 
