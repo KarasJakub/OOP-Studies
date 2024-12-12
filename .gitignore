@@ -1,1 +1,34 @@
+# Ignore Visual Studio temporary files, build results, and
+# JetBrains Rider specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+.vscode/
 .vs/
+*.sln.iml
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# Uncomment if necessary
+# !packages/build/
+# !packages/repositories.config
+
+# Ignore Rider specific files
+.idea/
+*.sln.iml
