@@ -1,5 +1,6 @@
-using Lab01;
+// using Lab01;
 using Lab02;
+// using Lab03;
 
 // Lab01
 
@@ -98,3 +99,7 @@ using Lab02;
  //  sumator.PrintIndexRange(-1, 22);
  // }
  // CreateSumator();
+ 
+ // Lab03
+ 
+ 
