@@ -2,6 +2,7 @@ using LAB01;
 using LAB02;
 using LAB03;
 using LAB04;
+using LAB05;
 
 
 namespace AllExercises
@@ -30,6 +31,9 @@ namespace AllExercises
                         //     break;
                         case 4:
                             Lab04.Run();
+                            break;
+                        case 5:
+                            Labo5.Run();
                             break;
                         case 0:
                             Close();
