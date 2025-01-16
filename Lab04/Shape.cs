@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lab04
+﻿namespace LAB04
 {
     internal class Shape
     {
@@ -23,7 +17,7 @@ namespace Lab04
 
         public virtual void Draw()
         {
-            Console.WriteLine("RYsowanie figury Shape");
+            Console.WriteLine("Rysowanie figury Shape");
         }
     }
 }

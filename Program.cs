@@ -1,7 +1,7 @@
 using LAB01;
 using LAB02;
 using LAB03;
-using Lab04;
+using LAB04;
 
 
 namespace AllExercises
@@ -26,11 +26,11 @@ namespace AllExercises
                             Lab02.Run();
                             break;
                         // case 3:
-                        //     Lab3.Run();
+                        //     Lab03.Run();
                         //     break;
-                        // case 4:
-                        //     Lab4.Run();
-                        //     break;
+                        case 4:
+                            Lab04.Run();
+                            break;
                         case 0:
                             Close();
                             break;
@@ -52,136 +52,6 @@ namespace AllExercises
 
 
 // Lab03
-
-
-//class Zwierze {
-//    public virtual void DajGlos() {
-//        Console.WriteLine("dzwiek pies");    
-//    }
-//}
-
-
-//class Pies: Zwierze
-//{
-//    public override void DajGlos()
-//    {
-//        Console.WriteLine("dzwiek pies 2");
-//    }
-//}
-
-//class Kot : Zwierze
-//{
-//    public override void DajGlos()
-//    {
-//        Console.WriteLine("dzwiek kot");
-//    }
-//}
-
-
-//abstract class Figura {
-//    public abstract double ObliczPole();
-
-
-//    public void Info()
-//    {
-//        Console.WriteLine("figura geometryczna");
-//    }
-//}
-
-//class Kwadrat: Figura {
-//    private double bok;
-
-//    public Kwadrat(double bok) { 
-
-//    }
-
-//    public override double ObliczPole()
-//    {
-//        return bok * bok;
-//    }
-//}
-
-//class Program
-//{
-//    static void Main()
-//    {
-//        Figura figura = new Kwadrat(5);
-//        figura.Info();
-//        Console.WriteLine("Pole kwadratu:" + figura.ObliczPole());
-//    }
-//}//abstract class Figura {
-//    public abstract double ObliczPole();
-
-
-//    public void Info()
-//    {
-//        Console.WriteLine("figura geometryczna");
-//    }
-//}
-
-//class Kwadrat: Figura {
-//    private double bok;
-
-//    public Kwadrat(double bok) { 
-
-//    }
-
-//    public override double ObliczPole()
-//    {
-//        return bok * bok;
-//    }
-//}
-
-//class Program
-//{
-//    static void Main()
-//    {
-//        Figura figura = new Kwadrat(5);
-//        figura.Info();
-//        Console.WriteLine("Pole kwadratu:" + figura.ObliczPole());
-//    }
-//}
-
-//interface IZwierze
-//{
-//    void DajGlos();
-
-//}
-
-//class Pies: IZwierze
-//{
-//    public void DajGlos()
-//    {
-//        Console.WriteLine("Pies wydaje dzwiek");
-//    }
-//}
-
-//class Program
-//{
-//    static void Main(string[] args)
-//    {
-//        IZwierze zwierze = new Pies();
-//        zwierze.DajGlos();
-//    }
-//}
-
-//class Program
-//{
-//    static void Main(string[] args)
-//    {
-       
-//    }
-//}
-
-//List<Shape> shapes =  new List<Shape>();
-
-////
-//shapes.Add(new Rectangle(10, 20, 30, 40));
-//shapes.Add(new Triangle(10, 20, 30, 40));
-////shapes.Add(new Circle(5, 10, 10);
-
-//foreach (Shape shape in shapes)
-//    shape.Draw();
 
 
 //enum Kolor
@@ -227,7 +97,5 @@ namespace AllExercises
 //         }
 //     }
 // }
-
-//TODO: lab 4 exercise 2
 
 
