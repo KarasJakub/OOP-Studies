@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Specialized;
 
-namespace Lab01
+namespace LAB01
 {
     internal class Exercise1
     {
@@ -11,7 +11,7 @@ namespace Lab01
             double input = Convert.ToDouble(Console.ReadLine());
             return input;
         }
-        public void Run()
+        public static void Run()
         {
             double a = DoubleInput();
             double b = DoubleInput();

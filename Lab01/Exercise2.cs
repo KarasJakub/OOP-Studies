@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab01;
+namespace LAB01;
 
 internal class Exercise2
 {
-    public void Run()
+    public static void Run()
     {
     ViewMenu:
         Console.WriteLine("Kalkulator");

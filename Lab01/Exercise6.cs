@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab01;
+namespace LAB01;
 
 internal class Exercise6
 {
-    public void Run()
+    public static void Run()
     {
         while (true)
         {

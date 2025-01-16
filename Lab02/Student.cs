@@ -1,12 +1,5 @@
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 // inheriting, I inherit everything except constructors, only the constructor is borrowed
-namespace Lab02
+namespace LAB02
 {
     internal class Student: Osoba
     {

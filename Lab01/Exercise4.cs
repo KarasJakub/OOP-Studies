@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab01;
+namespace LAB01;
 
 internal class Exercise4
 {
-    public void Run()
+    public static void Run()
     {
         double[] numbers = new double[10];
 

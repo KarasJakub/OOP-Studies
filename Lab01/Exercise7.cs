@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab01;
+namespace LAB01;
 
 internal class Exercise7
 {
-    public void Run()
+    public static void Run()
     {
         Console.Write("Ile liczb chcesz wprowadzić? ");
         int GivenN = Convert.ToInt32(Console.ReadLine());

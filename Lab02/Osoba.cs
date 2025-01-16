@@ -1,4 +1,4 @@
-namespace Lab02
+namespace LAB02
 {
     internal class Osoba
     {
@@ -35,6 +35,7 @@ namespace Lab02
             this.firstName = firstName;
             this.lastName = lastName;
             this.age = age;
+            
         }
 
         //konstruktor kopiujący (zawsze jeden argument)

@@ -1,4 +1,4 @@
-namespace Lab03
+namespace LAB03
 {
     internal class Person
     {
