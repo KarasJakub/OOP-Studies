@@ -2,6 +2,7 @@ using LAB01;
 using LAB02;
 using LAB03;
 using LAB04;
+using LAB05;
 
 
 namespace AllExercises
@@ -31,6 +32,9 @@ namespace AllExercises
                         case 4:
                             Lab04.Run();
                             break;
+                        case 5:
+                            Lab05.Run();
+                            break;
                         case 0:
                             Close();
                             break;
@@ -49,53 +53,4 @@ namespace AllExercises
         }
     }
 }
-
-
-// Lab03
-
-
-//enum Kolor
-//{
-//    Zielony,
-//    Niebieski,
-//    Czerwony = 10,
-//}
-
-// class MojeWyjatki : Exception
-// {
-//     public MojeWyjatki(string message) : base(message)
-//     {
-//     }
-// }
-
-
-
-
-
-// class Program
-// {
-//     static void Main(string[] args)
-//     {
-//         try
-//         {
-//             SprawdzLiczbe(-23);
-//         }
-//         catch (MojeWyjatki ex)
-//         {
-//             Console.WriteLine(ex.Message);
-//         }
-//         {
-//
-//         }
-//
-//         static void SprawdzLiczbe(int liczba)
-//         {
-//             if (liczba <= 0)
-//             {
-//                 throw new MojeWyjatki("Liczba musi byc wieksza od zera");
-//             }
-//         }
-//     }
-// }
-
 
