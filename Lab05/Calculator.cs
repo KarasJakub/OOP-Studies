@@ -8,11 +8,11 @@
         Divide
     }
 
-    public class Calculator
+    public static class Exercise1
     {
-        private List<double> resultHistory = new List<double>();
+        private static List<double> resultHistory = new List<double>();
 
-        public void Run()
+        public static void Run()
         {
             while (true)
             {
@@ -53,7 +53,7 @@
             DisplayHistory();
         }
 
-        private double GetNumber()
+        private static double GetNumber()
         {
             Console.Write("Wprowadź liczbę: ");
             return double.TryParse(Console.ReadLine(), out double number) 
@@ -61,7 +61,7 @@
                 : throw new FormatException("Podana wartość nie jest liczbą.");
         }
 
-        private Operation GetOperation()
+        private static Operation GetOperation()
         {
             Console.Write("Wprowadź operację: ");
             return Enum.TryParse(Console.ReadLine(), true, out Operation operation) 
@@ -69,7 +69,7 @@
                 : throw new FormatException("Podano nieprawidłową operację.");
         }
 
-        private double PerformOperation(double number1, double number2, Operation operation)
+        private static double PerformOperation(double number1, double number2, Operation operation)
         {
             return operation switch
             {
@@ -82,7 +82,7 @@
             };
         }
 
-        private void DisplayHistory()
+        private static void DisplayHistory()
         {
             Console.WriteLine("\nHistoria wyników:");
             foreach (double result in resultHistory)
