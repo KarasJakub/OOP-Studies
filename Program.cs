@@ -4,6 +4,7 @@ using LAB03;
 using LAB04;
 using LAB05;
 using LAB06;
+using LAB07;
 
 
 namespace AllExercises
