@@ -13,6 +13,7 @@ namespace LAB06
                 case 2: Exercise2.Run(); break;
                 case 3: Exercise3.Run(); break;
                 case 4: Exercise4.Run(); break;
+                case 5: Exercise5.Run(); break;
                 default:
                     Console.WriteLine("Błędny wybór zadania w LAB2.");
                     break;

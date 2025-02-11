@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C#-Studies")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb9ba1d4e636ce3f18260062689c8e938acdb4a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89c6d7257973fb284aaaa14d57a48bdd7b8f3ea8")]
 [assembly: System.Reflection.AssemblyProductAttribute("C#-Studies")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C#-Studies")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
